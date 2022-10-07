@@ -3,11 +3,12 @@
 }
 
 .imageAndText {
-
+    display: flex;
 }
 
 .imageAndText img {
-
+    float:right;
+    width: 48px;
 }
 
 .text {

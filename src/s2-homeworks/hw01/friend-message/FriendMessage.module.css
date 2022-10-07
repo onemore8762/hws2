@@ -3,11 +3,12 @@
 }
 
 .friendImageAndText {
-
+    display: flex;
 }
 
 .friendImageAndText img {
-
+    float:right;
+    width: 48px;
 }
 
 .friendText {
