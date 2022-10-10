@@ -1,20 +1,39 @@
+
+
 .input:focus {
+    outline: 1px solid rebeccapurple;
+
 }
 
 .input {
+    border-radius: 5px;
+    min-width: 350px;
+    height: 36px;
+    margin-right: 10px;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
 }
 
 .superInput {
+    border: 1px solid #D1D1D1;
 }
 
 .errorInput {
+    border: 1px solid red;
 }
 
 .errorInput:focus {
+    outline: 1px solid red;
 }
 
+
 .error {
+    height: 16px;
+    font-size: 14px;
+    display: block;
+    color: red;
 }
