@@ -13,6 +13,7 @@
 }
 
 .inputWrapper {
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
 
@@ -32,8 +33,8 @@
 
 
 .error {
-    height: 16px;
     font-size: 14px;
-    display: block;
+    top: -20px;
+    position: absolute;
     color: red;
 }
